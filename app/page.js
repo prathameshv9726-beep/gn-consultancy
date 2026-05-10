@@ -354,7 +354,7 @@ export default function GNConsultancyWebsite() {
       <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">
 
         <a
-          href="https://wa.me/918109668047"
+          href="https://wa.me/917024651289"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-2xl text-2xl"
