@@ -259,34 +259,63 @@ export default function GNConsultancyWebsite() {
                 Send Us a Message
               </h3>
 
-              <form className="space-y-5">
+              <form
+  action="https://formsubmit.co/gnconsultancy.support@gmail.com"
+  method="POST"
+  className="space-y-5"
+>
+  {/* Disable Captcha */}
+  <input type="hidden" name="_captcha" value="false" />
 
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
-                />
+  {/* Email Subject */}
+  <input
+    type="hidden"
+    name="_subject"
+    value="New Inquiry from GN Consultancy Website"
+  />
 
-                <input
-                  type="email"
-                  placeholder="Your Email"
-                  className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
-                />
+  {/* Thank You Redirect */}
+  <input
+    type="hidden"
+    name="_next"
+    value="https://gn-consultancy.vercel.app/thank-you"
+  />
 
-                <textarea
-                  rows="5"
-                  placeholder="Your Message"
-                  className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
-                ></textarea>
+  {/* Name */}
+  <input
+    type="text"
+    name="name"
+    placeholder="Your Name"
+    required
+    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+  />
 
-                <button
-                  type="submit"
-                  className="w-full bg-blue-700 hover:bg-blue-800 text-white py-4 rounded-2xl font-semibold transition-colors"
-                >
-                  Submit Inquiry
-                </button>
+  {/* Email */}
+  <input
+    type="email"
+    name="email"
+    placeholder="Your Email"
+    required
+    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+  />
 
-              </form>
+  {/* Message */}
+  <textarea
+    name="message"
+    rows="5"
+    placeholder="Your Message"
+    required
+    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+  ></textarea>
+
+  {/* Submit Button */}
+  <button
+    type="submit"
+    className="w-full bg-blue-700 hover:bg-blue-800 text-white py-4 rounded-2xl font-semibold transition-colors"
+  >
+    Submit Inquiry
+  </button>
+</form>
 
             </div>
 
