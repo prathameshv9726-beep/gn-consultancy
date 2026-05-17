@@ -370,6 +370,16 @@ export default function GNConsultancyWebsite() {
         >
           in
         </a>
+         {/* Instagram */}
+  <a
+    href="https://instagram.com/gnconsultancy.service"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white p-4 rounded-full shadow-2xl transition-all duration-300 text-2xl font-bold"
+    aria-label="Instagram"
+  >
+    📷
+  </a>
 
       </div>
 
