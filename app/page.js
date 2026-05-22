@@ -197,32 +197,26 @@ const services = [
 
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-16">
+  {services.map((service) => (
+    <div
+      key={service.number}
+      className="bg-white rounded-3xl p-8 shadow-lg border border-blue-100 hover:shadow-2xl transition duration-300 min-h-[260px]"
+    >
+      <div className="w-14 h-14 bg-blue-700 text-white rounded-2xl flex items-center justify-center text-2xl font-bold mb-6">
+        {service.number}
+      </div>
 
-            {services.map((service, index) => (
+      <h3 className="text-2xl font-bold text-blue-900 mb-4">
+        {service.title}
+      </h3>
 
-              <div
-                key={index}
-                className="bg-gradient-to-b from-blue-50 to-white border border-blue-100 rounded-3xl p-7 shadow-lg hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
-              >
-
-                <div className="w-14 h-14 rounded-2xl bg-blue-700 text-white flex items-center justify-center text-2xl font-bold mb-5">
-                  {index + 1}
-                </div>
-
-                <h3 className="text-xl font-semibold text-blue-900 mb-3">
-                  {service.title}
-                </h3>
-
-                <p className="text-slate-600 leading-relaxed">
-                  {service.desc}
-                </p>
-
-              </div>
-
-            ))}
-
-          </div>
+      <p className="text-gray-600 leading-relaxed">
+        {service.description}
+      </p>
+    </div>
+  ))}
+</div>
 
         </div>
 
