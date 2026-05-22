@@ -1,22 +1,36 @@
 export default function GNConsultancyWebsite() {
-  const services = [
-    {
-      title: 'Healthcare Support',
-      desc: 'Support for corporate, TPA and insurance healthcare processes.'
-    },
-    {
-      title: 'Empanelment Services',
-      desc: 'Seamless empanelment for insurance and government schemes.'
-    },
-    {
-      title: 'Revenue Management',
-      desc: 'Optimized revenue cycle management for faster collections.'
-    },
-    {
-      title: 'Claim Audit',
-      desc: 'Professional denial management and claim auditing services.'
-    }
-  ]
+const services = [
+  {
+    number: '1',
+    title: 'Healthcare Support',
+    description:
+      'Support for corporate, TPA and insurance healthcare processes.',
+  },
+  {
+    number: '2',
+    title: 'Empanelment Services',
+    description:
+      'Seamless empanelment for insurance and government schemes.',
+  },
+  {
+    number: '3',
+    title: 'Revenue Management',
+    description:
+      'Optimized revenue cycle management for faster collections.',
+  },
+  {
+    number: '4',
+    title: 'Claim Audit',
+    description:
+      'Professional denial management and claim auditing services.',
+  },
+  {
+    number: '5',
+    title: 'Staff Hiring',
+    description:
+      'Professional staffing and recruitment solutions for healthcare and corporate organizations.',
+  },
+]
 
   const highlights = [
     'Healthcare Support for Corporate, TPA & Insurance',
