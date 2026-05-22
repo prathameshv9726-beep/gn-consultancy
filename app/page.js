@@ -101,7 +101,7 @@ const services = [
 
           <div className="flex justify-center">
 
-            <div className="bg-white rounded-3xl shadow-2xl p-4 w-full max-w-lg">
+            <div className="bg-white/80 backdrop-blur-md rounded-3xl p-8 shadow-xl border border-blue-100 min-h-[280px] flex flex-col justify-start">
 
               <img
                 src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=1200&auto=format&fit=crop"
@@ -126,7 +126,7 @@ const services = [
             About Us
           </h2>
 
-          <p className="text-lg text-slate-600 leading-relaxed mb-6">
+          <p className="text-gray-600 leading-relaxed mt-4">
             GN Consultancy specializes in healthcare revenue management and insurance claim services.
             We help healthcare providers improve operational efficiency, reduce claim denials,
             and accelerate revenue cycles.
