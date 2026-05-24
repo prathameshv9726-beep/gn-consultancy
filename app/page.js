@@ -268,58 +268,55 @@ const services = [
               </h3>
 
               <form
-  action="https://formsubmit.co/gnconsultancy.support@gmail.com"
+  action="https://api.web3forms.com/submit"
   method="POST"
-  className="space-y-5"
+  className="space-y-6"
 >
-  {/* Disable Captcha */}
-  <input type="hidden" name="_captcha" value="false" />
-
-  {/* Email Subject */}
   <input
     type="hidden"
-    name="_subject"
+    name="access_key"
+    value="0c9e54dd-8b1c-48ac-85ba-78dd5179e23a"
+  />
+
+  <input
+    type="hidden"
+    name="subject"
     value="New Inquiry from GN Consultancy Website"
   />
 
-  {/* Thank You Redirect */}
   <input
     type="hidden"
-    name="_next"
+    name="redirect"
     value="https://gn-consultancy.vercel.app/thank-you"
   />
 
-  {/* Name */}
   <input
     type="text"
     name="name"
     placeholder="Your Name"
     required
-    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+    className="w-full p-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
   />
 
-  {/* Email */}
   <input
     type="email"
     name="email"
     placeholder="Your Email"
     required
-    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+    className="w-full p-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
   />
 
-  {/* Message */}
   <textarea
     name="message"
-    rows="5"
     placeholder="Your Message"
+    rows="5"
     required
-    className="w-full border border-slate-200 rounded-2xl px-5 py-4 outline-none focus:ring-2 focus:ring-blue-500"
+    className="w-full p-4 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500"
   ></textarea>
 
-  {/* Submit Button */}
   <button
     type="submit"
-    className="w-full bg-blue-700 hover:bg-blue-800 text-white py-4 rounded-2xl font-semibold transition-colors"
+    className="w-full bg-blue-700 hover:bg-blue-800 text-white py-4 rounded-xl font-semibold transition duration-300"
   >
     Submit Inquiry
   </button>
