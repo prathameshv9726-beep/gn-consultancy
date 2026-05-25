@@ -368,7 +368,7 @@ const services = [
         </a>
 
         <a
-          href="https://www.linkedin.com/in/prathamesh-vengurlekar-a4522218b/"
+          href="https://www.linkedin.com/in/garima-neha-1b3a13408/"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-blue-700 hover:bg-blue-800 text-white p-4 rounded-full shadow-2xl text-2xl"
