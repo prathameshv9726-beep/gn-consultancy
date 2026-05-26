@@ -42,7 +42,51 @@ const services = [
 
   return (
     
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white text-slate-800">
+      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white text-slate-800">
+  {/* Navbar */}
+  <header className="fixed top-0 left-0 w-full bg-blue-950/90 backdrop-blur-md z-50 shadow-lg">
+
+    <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+
+      <h1 className="text-2xl font-bold text-white">
+        GN Consultancy
+      </h1>
+
+      <nav className="flex items-center gap-6">
+
+        <a
+          href="/"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Home
+        </a>
+
+        <a
+          href="/about"
+          className="text-white hover:text-blue-200 transition"
+        >
+          About Us
+        </a>
+
+        <a
+          href="#services"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Services
+        </a>
+
+        <a
+          href="#contact"
+          className="text-white hover:text-blue-200 transition"
+        >
+          Contact
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
 
       {/* Hero Section */}
       <section className="relative overflow-hidden pt-24 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white">
