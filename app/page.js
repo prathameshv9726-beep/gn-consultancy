@@ -41,10 +41,11 @@ const services = [
   ]
 
   return (
+    
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-white text-slate-800">
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white">
+      <section className="relative overflow-hidden pt-24 bg-gradient-to-r from-blue-900 via-blue-700 to-blue-500 text-white">
 
         <div className="absolute inset-0 opacity-10 bg-[url('https://images.unsplash.com/photo-1585435557343-3b092031d4f7?q=80&w=1400&auto=format&fit=crop')] bg-cover bg-center"></div>
 
